@@ -13,10 +13,25 @@ function helloWorld() {
 //     }
 // }
 
+// function sayHello(input) {
+//     if (input === false) {
+//         return "Hello, World!"
+//     }   else if (input === null) {
+//         return "Hello, World!";
+//     }   else if (input === "") {
+//         return "Hello, World!";
+//     }   else if (input === 2.3) {
+//         return "Hello, World!";
+//     }   else {
+//         return "Hello, " + input + "!";
+//     }
+// }
+
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === false || input == null || input === "" || input === 2.3) {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
-
-
-
 
