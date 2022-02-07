@@ -35,3 +35,14 @@ function sayHello(input) {
     }
 }
 
+
+
+function isFive(input) {
+    if (input === 5) {
+        return true
+    }  else if (input === "5") {
+        return false
+    }  else {
+        return input === "boolean"
+        }
+}
