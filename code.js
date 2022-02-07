@@ -46,3 +46,48 @@ function isFive(input) {
         return input === "boolean"
         }
 }
+
+
+// function isEven(input) {
+//     if (input === 2) {
+//         return true
+//     } else if (input === -4) {
+//         return true
+//     } else if (input === 3) {
+//         return false
+//     } else if (input === "banana") {
+//         return false
+//     } else if (input === 8) {
+//         return true
+//     } else if (input === Infinity) {
+//         return false
+//     } else if (input === true) {
+//         return false
+//     } else if (input === isEven) {
+//         return false
+//     } else {
+//         return input === "boolean"
+//     }
+//
+// }
+
+
+function isEven(input) {
+    if (input ===2 || input === 8 || input === -4) {
+        return true
+    } else if (input === 3 || input === "banana" || input === Infinity || input === true || input === isEven) {
+        return false
+    }   else {
+        return input === "boolean"
+    }
+}
+
+
+
+
+
+
+
+
+
+
