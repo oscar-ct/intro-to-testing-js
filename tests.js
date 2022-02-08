@@ -152,7 +152,15 @@ describe('add', function() {
     it('input values should return a value of 6', function () {
         expect(add("-4", "10")).toBe(6);
     });
-
+    it('input values should return a value of NaN', function () {
+        expect(add("banana", "split")).toBeNaN();
+    });
+    it('input values should return a value of NaN', function () {
+        expect(add(2, "apples")).toBeNaN();
+    });
+    it('input values should return a value of NaN', function () {
+        expect(add()).toBeNaN();
+    });
 });
 
 
