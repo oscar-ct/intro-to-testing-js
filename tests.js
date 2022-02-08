@@ -133,15 +133,27 @@ describe('isVowel', function() {
     it('should return false when passed without an argument', function () {
         expect(isVowel()).toBe(false);
     });
-
-
-
-
 });
 
 
+describe('add', function() {
+    it('should be a defined function', function () {
+        expect(typeof add).toBe('function');
+    });
+    it('input values should return a value of 5', function () {
+        expect(add(2, 3)).toBe(5);
+    });
+    it('input values should return a value of -12', function () {
+        expect(add(-3, -9)).toBe(-12);
+    });
+    // it('input values should return a value of 5', function () {
+    //     expect(add("5", 6)).toBe(11);
+    // });
+    // it('input values should return a value of -12', function () {
+    //     expect(add(-4, "10")).toBe(6);
+    // });
 
-
+});
 
 
 
