@@ -94,13 +94,12 @@ function isVowel(input) {
     }
 }
 
-
+// var n1 = parseFloat(num1);
+// var n2 = parseFloat(num2);
 
 function add (num1, num2) {
-    var n1 = parseFloat(num1);
-    var n2 = parseFloat(num2);
-    if (!isNaN(n1) && !isNaN(n2)) {
-        return n1 + n2;
+    if (!isNaN(Number(num1)) && !isNaN(Number(num2))) {
+        return Number(num1) + Number(num2);
     } else {
         return NaN;
     }
