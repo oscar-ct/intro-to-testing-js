@@ -96,9 +96,11 @@ function isVowel(input) {
 
 
 
-function add(num1, num2) {
-    return parseInt(num1 + num2)
-}
+function add (num1, num2) {
+    var n1 = parseFloat(num1);
+    var n2 = parseFloat(num2);
+    return n1 + n2;
 
+}
 
 

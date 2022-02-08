@@ -146,12 +146,12 @@ describe('add', function() {
     it('input values should return a value of -12', function () {
         expect(add(-3, -9)).toBe(-12);
     });
-    // it('input values should return a value of 5', function () {
-    //     expect(add("5", 6)).toBe(11);
-    // });
-    // it('input values should return a value of -12', function () {
-    //     expect(add(-4, "10")).toBe(6);
-    // });
+    it('input values should return a value of 11', function () {
+        expect(add("5", 6)).toBe(11);
+    });
+    it('input values should return a value of 6', function () {
+        expect(add("-4", "10")).toBe(6);
+    });
 
 });
 
